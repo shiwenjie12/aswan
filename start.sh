@@ -3,7 +3,7 @@
 cur_dir=`pwd`
 
 ## 启动管理后台(调试用，不要用于生产)
-nohup python ${cur_dir}/www/manage.py runserver &
+nohup python ${cur_dir}/www/manage.py runserver 0.0.0.0:8000 &
 
 # 使用uwsgi启动后台
 #command="uwsgi --master --vacuum --processes 10 --socket 127.0.0.1:8000 --chdir ${cur_dir}/www --max-requests 5000 --module wsgi:application --logto ${cur_dir}/www/risk-control.log --pidfile ${cur_dir}/www/risk-control.pid"

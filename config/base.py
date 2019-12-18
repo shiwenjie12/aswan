@@ -11,7 +11,7 @@ LOG_HOME = './output'
 HIT_LOG_QUEUE_NAME = 'hit_log_queue'
 
 # 服务配置项
-RISK_SERVER_HOST = '127.0.0.1'
+RISK_SERVER_HOST = '0.0.0.0'
 RISK_SERVER_PORT = 50000
 
 #  存储sourcemap的redis key
