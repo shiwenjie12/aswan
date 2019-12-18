@@ -4,10 +4,10 @@
 DATABASES = {
     'default': {
         "ENGINE": 'django.db.backends.mysql',
-        "HOST": "127.0.0.1",
+        "HOST": "192.168.100.202",
         "PORT": 3306,
         "USER": "root",
-        "PASSWORD": "root",
+        "PASSWORD": "ChinaDaaS@2017",
         "DATABASE_CHARSET": "utf8",
         "NAME": "risk_control",
     },
